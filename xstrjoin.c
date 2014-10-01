@@ -18,7 +18,8 @@
 
 #include "xstrjoin.h"
 #include "xmalloc.h"
-#include "string.h"
+
+#include <string.h>
 
 char *xstrjoin(const char *a, const char *b)
 {
